@@ -50,7 +50,7 @@ end
 
 def winner(board)
   win = won?(board)
-  if win == true
+  if !(win == false)
     return board[win[0]]
   end
 end
