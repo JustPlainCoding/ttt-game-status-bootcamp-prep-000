@@ -53,3 +53,4 @@ def winner?
   if winner == true
     return board[winner[0]]
   end
+  end
