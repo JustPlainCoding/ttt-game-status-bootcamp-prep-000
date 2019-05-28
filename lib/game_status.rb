@@ -32,7 +32,7 @@ end
 
 def full?(board)
   board.all? do |position|
-    !(position.nil? || position = " ")
+    !(position = "" || position = " ")
   end
 end
 
